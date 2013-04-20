@@ -1,0 +1,12 @@
+/**
+ * Author: G@mOBEP
+ *
+ * Date: 20.04.13
+ * Time: 16:40
+ */
+
+var packajeUtil = require('./lib/package');
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+exports.utils = packajeUtil.requireDirSync(__dirname + '/lib');
