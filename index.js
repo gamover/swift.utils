@@ -9,4 +9,4 @@ var packajeUtil = require('./lib/package');
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-exports.utils = packajeUtil.requireDirSync(__dirname + '/lib');
+module.exports = packajeUtil.requireDirSync(__dirname + '/lib');
