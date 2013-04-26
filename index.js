@@ -5,8 +5,7 @@
  * Time: 16:40
  */
 
-var packajeUtil = require('./lib/package');
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-module.exports = packajeUtil.requireDirSync(__dirname + '/lib');
+exports.fs      = require('./lib/fs');
+exports.package = require('./lib/package');
+exports.string  = require('./lib/string');
+exports.type    = require('./lib/type');
